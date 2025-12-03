@@ -77,4 +77,4 @@ If no rules are matched, check your filter spelling and normalization (e.g., "Se
 MIT License
 
 ## Contributors
-Dylan Tenebruso
+👾[DylanInfosec](https://twitter.com/DylanInfosec)
