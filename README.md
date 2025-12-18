@@ -44,6 +44,10 @@ The script ensures authentication, preserves baseline packaging, and checks all 
 
 ### Running the Script
 
+#### Enable all Analytic rule templates in workspace
+```powershell
+.\Enable-AnalyticTemplates.ps1 -subscriptionId "<subId>" -resourceGroupName "<rg>" -workspaceName "<workspace>"
+```
 #### Filter by display name (contains, case-insensitive)
 ```powershell
 .\Enable-AnalyticTemplates.ps1 -subscriptionId "<subId>" -resourceGroupName "<rg>" -workspaceName "<workspace>" -title "TI Map"
